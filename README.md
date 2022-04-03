@@ -7,12 +7,14 @@
 
 ##Privet repo link [click me](https://github.com/programming-hero-web-course-4/product-analysis-website-Zakariabn.git)
 
-##Live site [netlify.com/mlovist]('#')
+##Live site [netlify/mlovist](https://mlovist.netlify.app/)
 
 ```
 ```
 ###Feather
-  * You 
-  * You can
-  * You can do
-  * You can do this.
+  * This site has mainly 5 pages 
+  * In [home](https://mlovist.netlify.app/) page you will see a movie poster and related information about that movie
+  * In [review](https://mlovist.netlify.app/reviews) page you will see user review about that movie.
+  * In [Dashboard](https://mlovist.netlify.app/dashboard) page you will see that movie related data through graphical chart 
+  * In [Blogs](https://mlovist.netlify.app/blogs) pages you can read articles related to web development.
+  * In [About](https://mlovist.netlify.app/about) page you will find information about us. With help of that information you can contact with us.
