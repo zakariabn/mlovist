@@ -7,7 +7,7 @@ function useReviews () {
     fetch('reviews.json')
     .then (res => res.json())
     .then (data => setReviews(data))
-    .catch ( () => 'Data font found');
+    .catch ( () => console.log('Data font found'));
   }, [])
 
   return [reviews, setReviews];
