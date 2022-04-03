@@ -1,7 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Poster from '../../../asset/images/ora-amake.png'
+import useReviews from '../../../hooks/useReviews';
+import Review from '../Review/Review';
+import ReviewCard from '../Review/ReviewCard';
 
 const Home = () => {
+  const [reviews, setReviews] = useReviews();
+  let count = 0;
+
   return (
     <div className='w-full max-w-screen-xl mt-10 mb-40'>
       <div className='bg-[#e2e2e2] p-2 rounded-r-3xl mb-5'>
@@ -31,10 +38,23 @@ const Home = () => {
 
         <div className=''>
           <h3 className='bg-teal-400 p-2 rounded-t-lg border-b-2 border-orange-500 text-xl font-bold mb-4'>
-            Movie Reviews
+            Movie Reviews <span className='text-orange-700'>({reviews.length})</span>
           </h3>
-          <div>
-
+          <div className='flex flex-col items-center'>
+            <div className='w-full grid grid-cols-3 justify-items-center items-center mb-5'>
+              {
+                reviews.map(review => {
+                  count++;
+                  if (count <= 3) {
+                    return <ReviewCard key={review._id} reviewData={review}></ReviewCard>
+                  }
+                  else {
+                    return "";
+                  }
+                })
+              }
+            </div>
+            <Link to="/reviews" className='bg-orange-400 px-2 p-1 rounded-md'>Sell all reviews</Link>
           </div>
 
         </div>
