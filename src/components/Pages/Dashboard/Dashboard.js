@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis, } from 'recharts';
+import {Bar, BarChart, CartesianGrid, LabelList, Legend, Line, LineChart, Tooltip, XAxis, YAxis, } from 'recharts';
 
 const Dashboard = () => {
   const [data, setData] = useState();
@@ -35,25 +35,27 @@ const Dashboard = () => {
         
         <div>
         {
-          <BarChart
-          width={500}
-          height={300}
-          data={data}
-          margin={{
-            top: 20,
-            right: 30,
-            left: 20,
-            bottom: 5,
-          }}
-        >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
-          <YAxis />
-          <Tooltip />
-          <Legend />
-          <Bar dataKey={'box_Office'} stackId="a" fill="#8884d8" />
-          <Bar dataKey={'targe-collection'} stackId="a" fill="#82ca9d" />
-        </BarChart>
+            <BarChart
+            width={500}
+            height={300}
+            data={data}
+            margin={{
+              top: 5,
+              right: 30,
+              left: 20,
+              bottom: 5,
+            }}
+          >
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="name" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+            <Bar dataKey={'box_Office'} fill="#8884d8" minPointSize={5}>
+              <LabelList dataKey="name" />
+            </Bar>
+            <Bar dataKey={'targe-collection'} fill="#82ca9d" minPointSize={10} />
+          </BarChart>
         }
           <p className='border-l-2 border-orange-500 pl-5 font-semibold inline-block mt-5'>Compare between target-collection and actual-collection</p>
         </div>
