@@ -11,17 +11,19 @@ import NotFound from './components/Pages/NotFound/NotFound';
 
 function App() {
   return (
-    <div className="App">
+    <div className='w-screen'>
       <Header></Header>
-
-    <Routes>
-      <Route path='/' element={<Home></Home>} ></Route>
-      <Route path='/reviews' element={<Review></Review>} ></Route>
-      <Route path='/dashboard' element={<Dashboard></Dashboard>} ></Route>
-      <Route path='/blogs' element={<Blogs></Blogs>} ></Route>
-      <Route path='/about' element={<About></About>} ></Route>
-      <Route path='*' element={<NotFound></NotFound>} ></Route>
-    </Routes>
+    
+      <div className="w-full flex flex-col items-center">
+        <Routes>
+          <Route path='/' element={<Home></Home>} ></Route>
+          <Route path='/reviews' element={<Review></Review>} ></Route>
+          <Route path='/dashboard' element={<Dashboard></Dashboard>} ></Route>
+          <Route path='/blogs' element={<Blogs></Blogs>} ></Route>
+          <Route path='/about' element={<About></About>} ></Route>
+          <Route path='*' element={<NotFound></NotFound>} ></Route>
+        </Routes>
+      </div>
     </div>
   );
 

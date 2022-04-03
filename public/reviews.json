@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "6249dfd22c550f498f33cc96",
+    "name": "Myra Perez",
+    "img": "https://buildyourspechere.com/wp-content/uploads/2020/10/placeholder-image-person-jpg-300x248.jpg",
+    "review": "et occaecat do magna minim qui est sunt laborum et Lorem reprehenderit aliquip esse duis cillum quis enim proident tempor",
+    "ratting": 5
+  },
+  {
+    "_id": "6249dfd2a99c826c79c28044",
+    "name": "Fleming Silva",
+    "img": "https://buildyourspechere.com/wp-content/uploads/2020/10/placeholder-image-person-jpg-300x248.jpg",
+    "review": "mollit officia voluptate exercitation elit elit aliquip aliquip irure consequat ut veniam ullamco ipsum quis consequat consectetur enim nostrud mollit",
+    "ratting": 4
+  },
+  {
+    "_id": "6249dfd23d26bff9cd385f07",
+    "name": "Yesenia Barnes",
+    "img": "https://buildyourspechere.com/wp-content/uploads/2020/10/placeholder-image-person-jpg-300x248.jpg",
+    "review": "fugiat consequat dolor est veniam fugiat sit et cillum ex id ullamco veniam non commodo adipisicing ea excepteur id duis",
+    "ratting": 3
+  },
+  {
+    "_id": "6249dfd2ea737419834f7e06",
+    "name": "Darcy Rollins",
+    "img": "https://buildyourspechere.com/wp-content/uploads/2020/10/placeholder-image-person-jpg-300x248.jpg",
+    "review": "aliqua incididunt elit tempor nisi anim ut anim cupidatat pariatur nisi aute voluptate occaecat dolor nostrud pariatur veniam excepteur incididunt",
+    "ratting": 5
+  },
+  {
+    "_id": "6249dfd24ccbd5de87113052",
+    "name": "Angelia Bush",
+    "img": "https://buildyourspechere.com/wp-content/uploads/2020/10/placeholder-image-person-jpg-300x248.jpg",
+    "review": "qui officia labore tempor dolore excepteur cillum adipisicing adipisicing nostrud sint do commodo aliqua nisi Lorem consectetur eiusmod ad tempor",
+    "ratting": 2
+  },
+  {
+    "_id": "6249dfd2094be89bf7e572ec",
+    "name": "Harrell Finch",
+    "img": "https://buildyourspechere.com/wp-content/uploads/2020/10/placeholder-image-person-jpg-300x248.jpg",
+    "review": "mollit exercitation veniam laborum ad velit adipisicing magna non ea laboris enim non ipsum cillum exercitation fugiat aliquip ullamco fugiat",
+    "ratting": 5
+  }
+]
