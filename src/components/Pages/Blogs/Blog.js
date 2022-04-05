@@ -17,7 +17,7 @@ const Blog = ({data}) => {
             </span>
           </div>
 
-          <div className={`${!open ? 'hidden' : 'initial'}`}>
+          <div className={`${open ? 'hidden' : 'initial'}`}>
             <p className="py-2 px-3 font-light text-lg">{answer}</p>
             <p className="bg-orange-200 border-l-2  border-red-500 pl-2 font-medium text-red-900">
               Post date: <span className="text-teal-900">{post_data}</span>

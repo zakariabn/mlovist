@@ -4,7 +4,7 @@
     "name": "Myra Perez",
     "img": "https://buildyourspechere.com/wp-content/uploads/2020/10/placeholder-image-person-jpg-300x248.jpg",
     "review": "et occaecat do magna minim qui est sunt laborum et Lorem reprehenderit aliquip esse duis cillum quis enim proident tempor",
-    "ratting": 5
+    "ratting": 4.5
   },
   {
     "_id": "6249dfd2a99c826c79c28044",
@@ -18,7 +18,7 @@
     "name": "Yesenia Barnes",
     "img": "https://buildyourspechere.com/wp-content/uploads/2020/10/placeholder-image-person-jpg-300x248.jpg",
     "review": "fugiat consequat dolor est veniam fugiat sit et cillum ex id ullamco veniam non commodo adipisicing ea excepteur id duis",
-    "ratting": 3
+    "ratting": 3.5
   },
   {
     "_id": "6249dfd2ea737419834f7e06",
@@ -32,7 +32,7 @@
     "name": "Angelia Bush",
     "img": "https://buildyourspechere.com/wp-content/uploads/2020/10/placeholder-image-person-jpg-300x248.jpg",
     "review": "qui officia labore tempor dolore excepteur cillum adipisicing adipisicing nostrud sint do commodo aliqua nisi Lorem consectetur eiusmod ad tempor",
-    "ratting": 2
+    "ratting": 2.5
   },
   {
     "_id": "6249dfd2094be89bf7e572ec",
